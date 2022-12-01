@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject confettiFx;
     [SerializeField] private GameObject levelCompletedUI;
 
-    [SerializeField] private float restartDelay = 2f;
+    //[SerializeField] private float restartDelay = 2f;
 
 
     public void LevelCompleted()

@@ -1,0 +1,96 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19044.2251; Version 2009; 64bit' Language: 'tr' Physical Memory: 8075 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/elifk/Desktop/Unity Source 2/Sort-It-3D-Clone/Sort It 3D Clone
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61983
+Successfully changed project path to: C:/Users/elifk/Desktop/Unity Source 2/Sort-It-3D-Clone/Sort It 3D Clone
+C:/Users/elifk/Desktop/Unity Source 2/Sort-It-3D-Clone/Sort It 3D Clone
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/elifk/Desktop/Unity Source 2/Sort-It-3D-Clone/Sort It 3D Clone/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740M (ID=0x1292)
+    Vendor:   
+    VRAM:     2009 MB
+    Driver:   25.21.14.2531
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003591 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.313 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.0 MB.
+System memory in use after: 60.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1577.
+Total: 3.031300 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.069600 ms MarkObjects: 2.686400 ms  DeleteObjects: 0.109200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/FlaskManager.cs
+  artifactKey: Guid(66688d31704191a4fada81a2b4721c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FlaskManager.cs using Guid(66688d31704191a4fada81a2b4721c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7688644a218b0b4d8c73886bdda319f0') in 0.051709 seconds
+  Import took 0.055786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Scripts/RayControl.cs
+  artifactKey: Guid(24f68d8050fa7164a83faa392471bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RayControl.cs using Guid(24f68d8050fa7164a83faa392471bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b828cdc94a3c61b74fa679d74a863d3') in 0.011577 seconds
+  Import took 0.017257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Scripts/BallManager.cs
+  artifactKey: Guid(5d22a6fd39af87a41beeb0a0e8b742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BallManager.cs using Guid(5d22a6fd39af87a41beeb0a0e8b742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4bbbc2998f6aa45d1fcd67e348428d') in 0.012386 seconds
+  Import took 0.017129 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
